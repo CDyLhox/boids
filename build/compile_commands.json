@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-std=gnu++14",
+      "-c",
+      "-o",
+      "CMakeFiles/boids.dir/main.cpp.o",
+      "/home/cage/cage/projects/cpp/boids/main.cpp"
+    ],
+    "directory": "/home/cage/cage/projects/cpp/boids/build",
+    "file": "/home/cage/cage/projects/cpp/boids/main.cpp",
+    "output": "/home/cage/cage/projects/cpp/boids/build/CMakeFiles/boids.dir/main.cpp.o"
+  }
+]
