@@ -97,9 +97,19 @@ CMakeFiles/boids.dir/main.cpp.o: /home/cage/cage/projects/cpp/boids/main.cpp \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -240,6 +250,7 @@ CMakeFiles/boids.dir/main.cpp.o: /home/cage/cage/projects/cpp/boids/main.cpp \
   /usr/include/c++/15/cctype \
   /usr/include/c++/15/cerrno \
   /usr/include/c++/15/clocale \
+  /usr/include/c++/15/cmath \
   /usr/include/c++/15/concepts \
   /usr/include/c++/15/cstddef \
   /usr/include/c++/15/cstdio \
@@ -288,6 +299,7 @@ CMakeFiles/boids.dir/main.cpp.o: /home/cage/cage/projects/cpp/boids/main.cpp \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -347,8 +359,6 @@ boids: /lib/ld-linux-aarch64.so.1 \
   CMakeFiles/boids.dir/main.cpp.o
 
 
-CMakeFiles/boids.dir/main.cpp.o:
-
 /usr/lib64/libz.so.1:
 
 /usr/lib64/libxcb.so.1:
@@ -379,8 +389,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/lib/gcc/aarch64-redhat-linux/15/libgcc.a:
 
-/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o:
-
 /usr/lib64/libm.so:
 
 /usr/lib64/crt1.o:
@@ -410,10 +418,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/stdlib.h:
 
 /usr/include/stdc-predef.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
 
 /usr/lib64/libbrotlicommon.so.1:
 
@@ -457,13 +461,25 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/c++/15/iosfwd:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/c++/15/ios:
 
-/usr/include/bits/stdio_lim.h:
+/usr/lib64/libsfml-window.so.2.6.2:
 
-/usr/include/bits/types/__locale_t.h:
+/usr/include/c++/15/initializer_list:
 
-/usr/include/bits/types/__fpos64_t.h:
+/usr/include/c++/15/ext/string_conversions.h:
+
+/usr/lib64/libc_nonshared.a:
+
+/usr/include/c++/15/ext/numeric_traits.h:
+
+/usr/include/c++/15/ext/atomicity.h:
+
+/usr/include/c++/15/ext/aligned_buffer.h:
+
+/usr/include/c++/15/exception:
+
+/usr/include/c++/15/debug/debug.h:
 
 /usr/include/bits/timex.h:
 
@@ -483,11 +499,33 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
+/usr/include/bits/mathcalls-macros.h:
+
+/usr/include/SFML/System/Export.hpp:
+
+/usr/lib64/libXcursor.so.1:
+
+/usr/include/c++/15/bits/memoryfwd.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/c++/15/bits/stl_function.h:
+
 /usr/include/bits/long-double.h:
 
 /usr/include/c++/15/aarch64-redhat-linux/bits/c++allocator.h:
 
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/15/bits/ostream.h:
+
 /usr/include/bits/libc-header-start.h:
+
+/usr/lib/gcc/aarch64-redhat-linux/15/crtend.o:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/asm-generic/errno.h:
 
 /usr/include/SFML/Graphics/PrimitiveType.hpp:
 
@@ -497,9 +535,13 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/SFML/Window/Keyboard.hpp:
 
+/usr/include/bits/stdio_lim.h:
+
 /usr/include/bits/time.h:
 
 /usr/include/asm/posix_types.h:
+
+/usr/include/math.h:
 
 /usr/include/SFML/Graphics/Transform.hpp:
 
@@ -519,19 +561,7 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/asm/bitsperlong.h:
 
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/15/bits/charconv.h:
-
 /usr/include/asm-generic/errno-base.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/SFML/System/Export.hpp:
-
-/usr/lib64/libXcursor.so.1:
-
-/usr/include/c++/15/bits/memoryfwd.h:
 
 /usr/include/asm-generic/types.h:
 
@@ -555,25 +585,31 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/SFML/Window/Mouse.hpp:
 
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/fp-fast.h:
+
 /usr/include/SFML/Window/Joystick.hpp:
 
 /usr/include/c++/15/backward/binders.h:
 
 /usr/include/SFML/Window/GlResource.hpp:
 
-/usr/include/c++/15/debug/debug.h:
-
 /usr/include/SFML/Window/Export.hpp:
-
-/usr/lib64/libc_nonshared.a:
-
-/usr/include/c++/15/ext/numeric_traits.h:
 
 /usr/include/bits/time64.h:
 
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/SFML/Window/Context.hpp:
+
+CMakeFiles/boids.dir/main.cpp.o:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/SFML/System/ThreadLocal.hpp:
 
 /usr/include/SFML/Window/Clipboard.hpp:
 
@@ -597,6 +633,8 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/SFML/Window/Touch.hpp:
 
+/usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h:
+
 /usr/include/sys/cdefs.h:
 
 /usr/include/c++/15/debug/assertions.h:
@@ -618,12 +656,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/SFML/System/String.hpp:
 
 /usr/include/SFML/System/ThreadLocalPtr.hpp:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/SFML/Graphics/Text.hpp:
-
-/usr/include/bits/types/FILE.h:
 
 /usr/include/SFML/Graphics/Rect.inl:
 
@@ -647,11 +679,17 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/bits/types/time_t.h:
 
+/usr/include/c++/15/ext/alloc_traits.h:
+
+/usr/include/SFML/Graphics/CircleShape.hpp:
+
 /usr/include/SFML/Graphics/ConvexShape.hpp:
 
 /usr/include/SFML/Window/VideoMode.hpp:
 
 /usr/include/SFML/Graphics/Font.hpp:
+
+/usr/include/c++/15/cmath:
 
 /usr/include/SFML/System/MemoryInputStream.hpp:
 
@@ -664,12 +702,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/c++/15/bits/ios_base.h:
 
 /usr/include/SFML/System/Err.hpp:
-
-/usr/include/features.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/types/__FILE.h:
 
 /usr/include/c++/15/aarch64-redhat-linux/bits/error_constants.h:
 
@@ -689,6 +721,10 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_FILE.h:
 
+/usr/include/c++/15/cwchar:
+
+/usr/include/SFML/Graphics/BlendMode.hpp:
+
 /usr/include/SFML/Graphics/Glsl.inl:
 
 /usr/include/bits/typesizes.h:
@@ -701,6 +737,14 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/SFML/System/Utf.inl:
 
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/SFML/Graphics/Text.hpp:
+
+/usr/include/bits/types/FILE.h:
+
 /usr/include/SFML/Graphics/VertexArray.hpp:
 
 /usr/include/SFML/System/Vector3.hpp:
@@ -708,8 +752,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/c++/15/bits/stl_algobase.h:
 
 /usr/include/c++/15/clocale:
-
-/usr/include/asm-generic/errno.h:
 
 /usr/include/SFML/Graphics/Color.hpp:
 
@@ -747,7 +789,17 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/refwrap.h:
 
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/15/bits/charconv.h:
+
+/usr/include/bits/types/clock_t.h:
+
 /usr/include/SFML/System/Mutex.hpp:
+
+/usr/include/bits/mathcalls-narrow.h:
 
 /usr/include/SFML/System/NonCopyable.hpp:
 
@@ -757,14 +809,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/move.h:
 
-/usr/include/SFML/System/ThreadLocal.hpp:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/15/bits/streambuf_iterator.h:
-
-/usr/include/SFML/Window/Window.hpp:
-
 /usr/include/SFML/Graphics/Shader.hpp:
 
 /usr/include/c++/15/bits/istream.tcc:
@@ -773,19 +817,41 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/SFML/System/Time.hpp:
 
-/usr/include/c++/15/ios:
-
 /usr/include/SFML/System/Vector2.hpp:
-
-/usr/include/c++/15/typeinfo:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/bits/stdint-intn.h:
 
 /usr/include/c++/15/bits/utility.h:
 
+/usr/include/c++/15/ext/type_traits.h:
+
+/usr/include/SFML/System/Thread.inl:
+
+/usr/include/SFML/System/Vector2.inl:
+
 /usr/include/c++/15/cerrno:
+
+/usr/include/bits/types.h:
+
+/usr/include/SFML/Window/Window.hpp:
+
+/usr/include/c++/15/bits/streambuf_iterator.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/c++/15/typeinfo:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/types/clockid_t.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
@@ -817,6 +883,8 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_timeval.h:
 
+/usr/include/bits/math-vector.h:
+
 /usr/include/c++/15/bits/concept_check.h:
 
 /usr/include/c++/15/bits/version.h:
@@ -839,8 +907,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/bits/wctype-wchar.h:
 
-/usr/include/c++/15/aarch64-redhat-linux/bits/atomic_word.h:
-
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/15/aarch64-redhat-linux/bits/c++config.h:
@@ -848,8 +914,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/c++/15/aarch64-redhat-linux/bits/c++locale.h:
 
 /usr/include/c++/15/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/15/ext/atomicity.h:
 
 /usr/include/c++/15/aarch64-redhat-linux/bits/cpu_defines.h:
 
@@ -905,9 +969,11 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/exception.h:
 
-/usr/lib64/libsfml-window.so.2.6.2:
+/usr/include/c++/15/bits/stl_heap.h:
 
-/usr/include/c++/15/initializer_list:
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/c++/15/bits/exception_defines.h:
 
 /usr/include/sys/single_threaded.h:
 
@@ -924,12 +990,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/SFML/Graphics/RenderWindow.hpp:
 
 /usr/include/c++/15/bits/functional_hash.h:
-
-/usr/include/SFML/System/Thread.inl:
-
-/usr/include/SFML/System/Vector2.inl:
-
-/usr/include/c++/15/ext/type_traits.h:
 
 /lib64/libm.so.6:
 
@@ -949,8 +1009,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/locale_facets_nonio.h:
 
-/usr/include/c++/15/exception:
-
 /usr/include/linux/sched/types.h:
 
 /usr/include/c++/15/bits/nested_exception.h:
@@ -963,8 +1021,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
-/usr/include/c++/15/bits/ostream.h:
-
 /usr/include/c++/15/bits/std_abs.h:
 
 /usr/include/c++/15/bits/stl_algo.h:
@@ -974,18 +1030,6 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/c++/15/bits/ptr_traits.h:
 
 /usr/include/c++/15/bits/stl_construct.h:
-
-/usr/include/c++/15/bits/stl_function.h:
-
-/usr/include/SFML/Graphics/BlendMode.hpp:
-
-/usr/include/c++/15/cwchar:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/15/bits/exception_defines.h:
-
-/usr/include/c++/15/bits/stl_heap.h:
 
 /usr/lib64/libbrotlidec.so.1:
 
@@ -1024,11 +1068,3 @@ CMakeFiles/boids.dir/main.cpp.o:
 /usr/include/c++/15/cstdio:
 
 /usr/include/c++/15/ctime:
-
-/usr/include/c++/15/ext/aligned_buffer.h:
-
-/usr/include/SFML/Graphics/CircleShape.hpp:
-
-/usr/include/c++/15/ext/alloc_traits.h:
-
-/usr/include/c++/15/ext/string_conversions.h:
