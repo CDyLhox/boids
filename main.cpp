@@ -58,6 +58,7 @@ sf::Vector2f rule2(std::vector<sf::CircleShape>& boids, int index)
     std::cout << "rule2, distance" << std::endl;
     return displacement;
 }
+
 sf::Vector2f rule3(std::vector<sf::CircleShape>& boids, int index)
 {
     sf::Vector2f perceivedVelocity;
