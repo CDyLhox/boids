@@ -1,3 +1,0 @@
-/home/cage/cage/projects/cpp/boids/build/CMakeFiles/boids.dir
-/home/cage/cage/projects/cpp/boids/build/CMakeFiles/edit_cache.dir
-/home/cage/cage/projects/cpp/boids/build/CMakeFiles/rebuild_cache.dir
