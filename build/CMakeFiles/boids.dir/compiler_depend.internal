@@ -3,6 +3,7 @@
 
 CMakeFiles/boids.dir/main.cpp.o
  /home/cage/cage/projects/cpp/boids/main.cpp
+ /home/cage/cage/projects/cpp/boids/boid.h
  /usr/include/SFML/Config.hpp
  /usr/include/SFML/Graphics.hpp
  /usr/include/SFML/Graphics/BlendMode.hpp

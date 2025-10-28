@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <SFML/Graphics.hpp>
+
 class boid{
     boid();
     ~boid();

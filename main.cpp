@@ -1,3 +1,4 @@
+#include "boid.h"
 #include <SFML/Graphics.hpp>
 #include <cmath>
 #include <cstdlib>
@@ -14,7 +15,7 @@ std::vector<sf::CircleShape> initialisePositions(int amountOfBoids)
     boids.reserve(amountOfBoids);
 
     for (int i = 0; i < amountOfBoids; i++) {
-        sf::CircleShape boid(std::rand() % 101);
+        sf::CircleShape boid(std::rand() % 10);
         boid.setFillColor(sf::Color::Cyan);
         boid.setPosition(std::rand() % WINDOWWIDTH, std::rand() % WINDOWHEIGHT);
         boids.push_back(boid);
@@ -85,7 +86,9 @@ void updatePositions(std::vector<sf::CircleShape>& boids)
     std::cout << "v3: (" << v3.x << ", " << v3.y << ")\n";
 
     for (auto& boid : boids) {
-        boid.setPosition(boid.getPosition() + v1);
+        boid.setPosition(
+            fmod(boid.getPosition().x + v1.x + WINDOWWIDTH, WINDOWWIDTH),
+            fmod(boid.getPosition().y + v1.y + WINDOWHEIGHT, WINDOWHEIGHT));
     }
 }
 
